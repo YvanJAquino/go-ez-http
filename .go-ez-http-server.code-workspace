@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "./service",
+			"name": "SERVICE: go-ez-http-server"
+		},
+		{
+			"path": ".",
+			"name": "ROOT: go-ez-http-server"
+		},
+		{
+			"path": "../../",
+			"name": "github.com: Project References"
+		},
+		{
+			"path": "../../../go-patterns",
+			"name": "Reference Go Patterns"
+		}
+	],
+	"settings": {
+		"gopls": {
+			"build.directoryFilters": [
+				"-../../",
+				"+go-ez-http-server"
+			]
+		}
+	}
+}
